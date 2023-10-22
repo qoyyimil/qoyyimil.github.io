@@ -1,0 +1,225 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+/* Section General */
+section {
+  padding: 80px 0 60px 0;
+  overflow: hidden;
+  display: block;
+}
+
+section .section-title {
+  text-align: center;
+}
+
+section .section-title h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #45505b;
+  padding-bottom: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar-scrolled {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Home */
+#home {
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+#home .home-picture {
+  height: 345px;
+  margin-top: 50px;
+}
+
+#home .home-name {
+  margin-top: 130px;
+}
+
+#home h1 {
+  font-size: 80px;
+}
+
+#home p {
+  font-size: 30px;
+}
+
+#home p span {
+  color: #768ca2;
+  font-weight: 800;
+}
+
+#home .social-links {
+  display: flex;
+}
+
+#home .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #768ca2;
+  background: rgb(237, 237, 237);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+#home .social-links a:hover {
+  background: #768ca2;
+  color: white;
+}
+
+/* About */
+#about {
+  background-color:rgb(249, 249, 249);
+  align-items: center;
+}
+
+#about .profile {
+  margin-left: 50px;
+  height: 230px;
+  border-radius: 500px;
+}
+
+#about .data-diri {
+  margin-top: 30px;
+}
+
+/* Education */
+#education {
+  align-items: center;
+}
+
+#education .education-detail h4 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#education span{
+  font-weight: bold;
+  color: #768ca2;
+}
+
+/* Experiences */
+#experiences {
+  align-items: center;
+}
+
+#experiences .experiences-detail {
+  color: #45505b;
+  background-color: #ced8dc;
+  border-radius: 50px;
+}
+
+#experiences .experiences-detail h5{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#experiences .logo-experiences {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+#experiences .logo-experiences-ise {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 180px;
+}
+
+#experiences .committee-detail{
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#experiences .committee-detail h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#experiences .committee-detail h6 {
+  font-weight: bold;
+  color: #8398a0;
+}
+
+#experiences .organizational-detail{
+  align-items: center;
+}
+
+#experiences .organizational-detail h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#experiences .organizational-detail h6 {
+  font-weight: bold;
+  color: #8398a0;
+}
+
+/* Contact */
+#contact {
+  align-items: center;
+  background-color: #e4ebed;
+}
+
+.contact-info h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #728394;
+}
+
+.button button[type=submit] {
+  background: #8998a7;
+  color: white;
+  border: 0;
+  padding: 10px 40px;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+
+.button button[type=submit]:hover {
+background: #768ca2;
+}
+
+/* Footer */
+#footer {
+  background: #768ca2;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0;
+}
